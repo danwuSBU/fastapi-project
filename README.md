@@ -6,15 +6,13 @@
 
 ### Create the virtual environment
 
-`/fastapi-project$ sudo apt-get install python3-pip`
+`/fastapi-project$ sudo apt install python3.9-venv`
 
-`/fastapi-project$ sudo pip3 install virtualenv`
-
-`/fastapi-project$ virtualenv venv`
+`/fastapi-project$ python3.9 -m venv .venv`
 
 ### Activate the virtual environment
 
-`/fastapi-project$ source venv/bin/activate`
+`/fastapi-project$ source .venv/bin/activate`
 
 ### Install requirements
 
