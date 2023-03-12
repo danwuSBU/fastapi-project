@@ -4,3 +4,6 @@
 /lib64
 /share
 pyvenv.cfg
+*/node_modules
+ui/src/client/
+.venv/
