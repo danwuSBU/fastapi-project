@@ -32,10 +32,16 @@ Open Swagger in browser: `http://127.0.0.1:8000/docs#/`
 
 `cd` to `/fastapi-project/ui`
 
-### Generate Client
+Make sure you have the API running locally (see above) and yarn installed (`npm install --global yarn`).
 
-With API running locally (see above) and yarn installed (`npm install --global yarn`),
+### Install dependencies
 
-`/fastapi-project/ui$ yarn run generate-client` (you will need to run this every time you edit the API)
+`/fastapi-project/ui$ yarn install`
 
-Then, you can `/fastapi-project/ui$ yarn start`, and yarn will open the app for you.
+### Generate client
+
+`/fastapi-project/ui$ yarn run generate-client` (you will need to run this every time you edit the API).
+
+## Run the app
+
+`/fastapi-project/app$ uvicorn main:app --reload` and `/fastapi-project/ui$ yarn start` in two terminals.
